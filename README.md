@@ -24,8 +24,8 @@ An interactive and responsive quiz application built with HTML, CSS, JavaScript,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ALX-quiz-app.git
-   cd ALX-quiz-app
+   git clone https://github.com/Ibrvhim249/Quiz-App.git
+   cd Quiz-App
    ```
 
 2. Install dependencies:
@@ -91,3 +91,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - ALX Software Engineering Program for the project inspiration.
 - Firebase for backend services.
 - Tailwind CSS for rapid UI development.
+## CONTRIBUTORS
+
+<ul>
+  <li> <a href="https://github.com/Ibrvhim249"> Amey Vinerkar </a> </li>
+  <li> <a href="https://github.com/Ship0000n"> Neal Mehta </a> </li>
+</ul>
