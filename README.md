@@ -42,7 +42,7 @@ An interactive and responsive quiz application built with HTML, CSS, JavaScript,
 
 ## Project Structure
 ```plaintext
-ALX-quiz-app/
+Quiz-App/
 ├── index.html             # Main entry point
 ├── src/                   # Source code
 │   ├── components/        # Reusable UI components
@@ -94,6 +94,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## CONTRIBUTORS
 
 <ul>
-  <li> <a href="https://github.com/Ibrvhim249"> Amey Vinerkar </a> </li>
-  <li> <a href="https://github.com/Ship0000n"> Neal Mehta </a> </li>
+  <li> <a href="https://github.com/Ibrvhim249"> Ibrahim Ehab </a> </li>
+  <li> <a href="https://github.com/Ship0000n"> Mohammed Awadelkarim </a> </li>
 </ul>
