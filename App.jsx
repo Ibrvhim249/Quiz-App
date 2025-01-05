@@ -1,12 +1,36 @@
-import app from "./firebaseConfig";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import AppLayout from "./ui/AppLayout";
+import Home from "./features/home/Home";
+import { loader as homeLoader } from "./ui/Header";
+import Quiz from "./features/quiz/Quiz";
+import Error from "./ui/Error";
+import FinishedScreen from "./ui/FinishedScreen";
 
-const App = () => {
-  console.log("Firebase App Instance:", app); // This should log your Firebase app instance
-  return (
-    <div className="p-5">
-      <h1 className="text-2xl font-bold">Firebase is configured!</h1>
-    </div>
-  );
-};
+function App() {
+  const router = createBrowserRouter([
+    {
+      element: <AppLayout />,
+
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+          loader: homeLoader,
+        },
+        {
+          path: "/:type",
+          element: <Quiz />,
+          errorElement: <Error />,
+        },
+        {
+          path: "/finished",
+          element: <FinishedScreen />,
+        },
+      ],
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
+}
 
 export default App;
